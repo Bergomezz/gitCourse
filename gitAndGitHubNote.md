@@ -16,7 +16,7 @@
 - `git reset` - copy the latest change the would commited before the change. using the command + `HEAD~1`, you return to the latest commit in the HEAD. If you do with `--hard`, you will delete the commit and the file staged
 - `git ls-file` - list the already file that you staged in your repo
 - `git log` - log all you commit and id for you to use
-- `.gitignore` - a file that you could put all the files that you can't send to the repo. If you use '!' before the name of the file, you could make some exception and send that specific file to the repo. <br> Example: If you use the `*.doc`, this is ignore all file that end wit .doc, but if you want to send some specific file .doc, you need to put `!fileName.doc`. This will make the file be ready to stage and send to the repo
+- `.gitignore` - a file that you could put all the files that you can't send to the repo. If you use '!' before the name of the file, you could make some exception and send that specific file to the repo. <br> Example: If you use the `*.doc`, this is ignore all file that end with .doc, but if you want to send some specific file .doc, you need to put `!fileName.doc`. This will make the file be ready to stage and send to the repo
 - ``
 
 <br>
