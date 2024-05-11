@@ -1,3 +1,2 @@
-*Git/GitHub Course*
-Only praticing purpose
-
+_Git/GitHub Course_
+Only practicing purpose
