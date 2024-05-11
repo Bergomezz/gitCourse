@@ -17,9 +17,14 @@
 - `git ls-file` - list the already file that you staged in your repo
 - `git log` - log all you commit and id for you to use
 - `.gitignore` - a file that you could put all the files that you can't send to the repo. If you use '!' before the name of the file, you could make some exception and send that specific file to the repo. <br> Example: If you use the `*.doc`, this is ignore all file that end with .doc, but if you want to send some specific file .doc, you need to put `!fileName.doc`. This will make the file be ready to stage and send to the repo
-- `git reflog` - Allow us to bring back kind of lost information, related to commits or to branches
-- `git merge --no-ff` - Automatic merge the branch and left individualy path in recursive mode
-- `git rebase` - Create another commit with all commit made before
+- `git reflog` - Allow us to bring back kind of lost information, related to commits or to branches (A log og all project changes made including deleted commits)
+- `git merge --no-ff` - Automatic merge the branch and left individually path in recursive mode
+- `git rebase` - Merge two branches and create another commit with all commit made before (Change the base (i.e the parent commit) of commits in another branch)
+- `diff --cc branch_name/file_name` - This is show the difference between the 2 commits to choose what is accepted
+- `git merge --abort` - Used to abort the merge to recheck the diff
+- `git cherry-pick` - Used with the commit id to merge only the specific commit to the selected branch (Copy commit including the changes made only in this commit as _*HEAD*_ to other branch)
+- `git tag` - Used to tag some selected commit to be easier to identify the commit id that was did it
+- `git stash` - Temporary storage for unstaged and uncommitted changes
 
 <br>
 
@@ -47,3 +52,12 @@ If you have some question and want to know more, use the `man` and the command t
 - `rmdir` - delete the folder
 - `copy` - copy file and folder
 - `move` - move file and folder
+
+<br>
+<br>
+
+**How to handling whit merge conflicts**
+
+> - Compare Changes - Accept Current Change - Accept the Incoming Change - Accept Both Change
+>
+> 1. You will need to check what is the best option for the correction and made the change
