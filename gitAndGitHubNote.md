@@ -1,4 +1,4 @@
-**Some notes of the git course for the future**
+# **_Some notes of the git course for the future_**
 
 - `git --version` - just to see the version that you using
 - `git init` - to initialize the git repository
@@ -22,13 +22,13 @@
 - `git rebase` - Merge two branches and create another commit with all commit made before (Change the base (i.e the parent commit) of commits in another branch)
 - `diff --cc branch_name/file_name` - This is show the difference between the 2 commits to choose what is accepted
 - `git merge --abort` - Used to abort the merge to recheck the diff
-- `git cherry-pick` - Used with the commit id to merge only the specific commit to the selected branch (Copy commit including the changes made only in this commit as _*HEAD*_ to other branch)
+- `git cherry-pick` - Used with the commit id to merge only the specific commit to the selected branch (Copy commit including the changes made only in this commit as _***HEAD***_ to other branch)
 - `git tag` - Used to tag some selected commit to be easier to identify the commit id that was did it
 - `git stash` - Temporary storage for unstaged and uncommitted changes
 
 <br>
 
-- **Some note of command line commands from Mac and Unix OS**
+- ## **Some note of command line commands from Mac and Unix OS**
 
 - `mv` - use to move and rename the folder/file
 - `touch` - create a file
@@ -42,7 +42,7 @@ If you have some question and want to know more, use the `man` and the command t
 
 <br>
 
-**Some note of commands line command from cmd**
+## **Some note of commands line command from cmd**
 
 - `cd /` - navigate directly from the root directory
 - `cls` - clear the terminal
@@ -56,8 +56,10 @@ If you have some question and want to know more, use the `man` and the command t
 <br>
 <br>
 
-**How to handling whit merge conflicts**
+## **How to handling whit merge conflicts**
 
+> [!NOTE]
+>
 > - Compare Changes - Accept Current Change - Accept the Incoming Change - Accept Both Change
 >
-> 1. You will need to check what is the best option for the correction and made the change
+> > 1.  You will need to check what is the best option for the correction and made the change
