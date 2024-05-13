@@ -7,7 +7,7 @@
 - `git push` - push the staged change into remote repositories
 - `git remote` - synchronize the local repository with the online host repository
 - `git remote show` - If you use with origin, it will show a lot of details information about all branch
-- `git branch` - locate and list the branches. If you using the flag `-d`, you will delete only the branch that you already merge and if you use the flag `-D`, you will force delete the branch. With the flag `-a`, we can list all branch local and remote. With the flag `-c`, we can create a new branch. With the flag `-r`, we can visualize the remote branch. With the `-vv` flag, list local tracking branches and their remotes.With the flag `--track`, you can make a tracking local branch with the remote one. It's a good practicing to use the same name branch as the remote one.
+- `git branch` - locate and list the branches. If you using the flag `-d`, you will delete only the branch that you already merge and if you use the flag `-D`, you will force delete the branch. With the flag `-a`, we can list all branch local and remote. With the flag `-c`, we can create a new branch. With the flag `-r`, we can visualize the remote branch. With the `-vv` flag, list local tracking branches and their remotes.With the flag `--track`, you can make a tracking local branch with the remote one. It's a good practicing to use the same name branch as the remote one. Using `--delete --remotes`, you can delete the remote branch.
 - `git checkout` - change into the branches, if you use with the flag `-b` you will create a new branch and change for it
 - `git merge` - merge branches
 - `git switch` - new command to change between branches
@@ -26,7 +26,7 @@
 - `git cherry-pick` - Used with the commit id to merge only the specific commit to the selected branch (Copy commit including the changes made only in this commit as _***HEAD***_ to other branch)
 - `git tag` - Used to tag some selected commit to be easier to identify the commit id that was did it
 - `git stash` - Temporary storage for unstaged and uncommitted changes
-- `git fetch` -
+- `git fetch` - Adding with origin, it will bring all you have of your remote repository
 
 <br>
 
